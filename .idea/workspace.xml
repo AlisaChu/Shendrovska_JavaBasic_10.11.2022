@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c8ef308-54e6-40b9-827f-8774134230af" name="Changes" comment="correction">
+    <list default="true" id="2c8ef308-54e6-40b9-827f-8774134230af" name="Changes" comment="homework test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/less11/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/less11/Tracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/less11/TrackerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/less11/TrackerMain.java" afterDir="false" />
@@ -28,6 +28,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/less11/TrackerMain.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668092840598</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homework test">
+      <created>1668099018753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668099018753</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +141,7 @@
     <MESSAGE value="init project and create Main.java file" />
     <MESSAGE value="adited main class added fields sop" />
     <MESSAGE value="correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction" />
+    <MESSAGE value="homework test" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework test" />
   </component>
 </project>

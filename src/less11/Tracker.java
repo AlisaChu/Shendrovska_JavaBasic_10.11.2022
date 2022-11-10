@@ -15,7 +15,7 @@ public class Tracker {
     private long stepsByDay;
     private int age;
 
-    Tracker (String name, int dayOfBirth, int monthOfBirth,
+    public Tracker (String name, int dayOfBirth, int monthOfBirth,
             int yearOfBirth, String email, String phone,
             String surname, int weight, int pressure, long stepsByDay) {
 
@@ -30,7 +30,6 @@ public class Tracker {
         this.pressure = pressure;
         this.stepsByDay = stepsByDay;
         this.age = 2022 - yearOfBirth;
-
     }
     public String getName() {
         return this.name;
@@ -65,6 +64,7 @@ public class Tracker {
     public int getAge() {
         return this.age;
     }
+
     public void setSurname(String surname) {
         this.surname = surname;
     }
@@ -78,7 +78,6 @@ public class Tracker {
         this.stepsByDay = stepsByDay;
     }
 
-    // print
     public void printAccountInfo() {
         System.out.println(this);
     }
