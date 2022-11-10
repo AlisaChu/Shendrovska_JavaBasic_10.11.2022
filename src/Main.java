@@ -9,5 +9,10 @@ public class Main {
 //    Запушить изменения на облако
 //    Ответом на дз присылаем ссылку на репозиторий
         System.out.println("Hello world!");
+        System.out.println("Hello world!");
+        System.out.println("Hello world!");
     }
 }
+
+
+
