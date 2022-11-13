@@ -17,42 +17,42 @@ public class Drinks {
         System.out.println("A cup of coffee is price: " + COFFEE_PRICE + "₴");
         System.out.print("Enter the number of cups of coffee: ");
         int amount = scanner.nextInt();
-        sum = sum + (amount * COFFEE_PRICE);
+        sum = (amount * COFFEE_PRICE);
     }
 
     public void teaPrepare() {
         System.out.println("A cup of tea is price: " + TEA_PRICE + "₴");
         System.out.println("Enter the number of cups of tea: ");
         int amount = scanner.nextInt();
-        sum = sum + (amount * TEA_PRICE);
+        sum = (amount * TEA_PRICE);
     }
 
     public void lemonadePrepare() {
         System.out.println("A cup of lemonade is price: " + LEMONADE_PRICE + "₴");
         System.out.print("Enter the number of cups of lemonade: ");
         int amount = scanner.nextInt();
-        sum = sum + (amount * LEMONADE_PRICE);
+        sum = (amount * LEMONADE_PRICE);
     }
 
     public void mojitoPrepare() {
         System.out.println("A cup of mojito is price: " + MOJITO_PRICE + "₴");
         System.out.print("Enter the number of cups of mojito: ");
         int amount = scanner.nextInt();
-        sum = sum + (amount * MOJITO_PRICE);
+        sum = (amount * MOJITO_PRICE);
     }
 
     public void mineralPrepare() {
         System.out.println("A cup of mineral water is price: " + MINERAL_PRICE + "₴");
         System.out.print("Enter the number of cups of mineral water: ");
         int amount = scanner.nextInt();
-        sum = sum + (amount * MINERAL_PRICE);
+        sum = (amount * MINERAL_PRICE);
     }
 
     public void coca_colaPrepare() {
         System.out.println("A cup of coca-cola is price: " + COCA_COLA_PRICE + "₴");
         System.out.print("Enter the number of cups of Coca-Cola: ");
         int amount = scanner.nextInt();
-        sum = sum + (amount * COCA_COLA_PRICE);
+        sum = (amount * COCA_COLA_PRICE);
     }
 
     public static double getSum() {
