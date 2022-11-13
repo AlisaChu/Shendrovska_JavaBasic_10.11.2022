@@ -13,49 +13,54 @@ public class Drinks {
 
     Scanner scanner = new Scanner(System.in);
 
+
     public void coffeePrepare() {
         System.out.println("A cup of coffee is price: " + COFFEE_PRICE + "₴");
         System.out.print("Enter the number of cups of coffee: ");
         int amount = scanner.nextInt();
-        sum = (amount * COFFEE_PRICE);
+        sum = sum + (amount * COFFEE_PRICE);
     }
 
     public void teaPrepare() {
         System.out.println("A cup of tea is price: " + TEA_PRICE + "₴");
         System.out.println("Enter the number of cups of tea: ");
         int amount = scanner.nextInt();
-        sum = (amount * TEA_PRICE);
+        sum = sum + (amount * TEA_PRICE);
     }
 
     public void lemonadePrepare() {
         System.out.println("A cup of lemonade is price: " + LEMONADE_PRICE + "₴");
         System.out.print("Enter the number of cups of lemonade: ");
         int amount = scanner.nextInt();
-        sum = (amount * LEMONADE_PRICE);
+        sum = sum + (amount * LEMONADE_PRICE);
     }
 
     public void mojitoPrepare() {
         System.out.println("A cup of mojito is price: " + MOJITO_PRICE + "₴");
         System.out.print("Enter the number of cups of mojito: ");
         int amount = scanner.nextInt();
-        sum = (amount * MOJITO_PRICE);
+        sum = sum + (amount * MOJITO_PRICE);
     }
 
     public void mineralPrepare() {
         System.out.println("A cup of mineral water is price: " + MINERAL_PRICE + "₴");
         System.out.print("Enter the number of cups of mineral water: ");
         int amount = scanner.nextInt();
-        sum = (amount * MINERAL_PRICE);
+        sum = sum + (amount * MINERAL_PRICE);
     }
 
     public void coca_colaPrepare() {
         System.out.println("A cup of coca-cola is price: " + COCA_COLA_PRICE + "₴");
         System.out.print("Enter the number of cups of Coca-Cola: ");
         int amount = scanner.nextInt();
-        sum = (amount * COCA_COLA_PRICE);
+        sum = sum + (amount * COCA_COLA_PRICE);
     }
 
     public static double getSum() {
         return sum;
+    }
+
+    public int getSc() {
+        return scanner.nextInt();
     }
 }
