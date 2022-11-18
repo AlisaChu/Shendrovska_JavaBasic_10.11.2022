@@ -32,53 +32,69 @@ public class Tracker {
         this.age = 2022 - yearOfBirth;
     }
     public String getName() {
+
         return this.name;
     }
     public int getDayOfBirth() {
+
         return this.dayOfBirth;
     }
     public int getMonthOfBirth() {
+
         return this.monthOfBirth;
     }
     public int getYearOfBirth() {
+
         return this.yearOfBirth;
     }
     public String getEmail() {
+
         return this.email;
     }
     public String getPhone() {
+
         return this.phone;
     }
     public String getSurname() {
+
         return this.surname;
     }
     public int getWeight() {
+
         return this.weight;
     }
     public int getPressure() {
+
         return this.pressure;
     }
     public long getStepsByDay() {
+
         return this.stepsByDay;
     }
     public int getAge() {
+
         return this.age;
     }
 
     public void setSurname(String surname) {
+
         this.surname = surname;
     }
     public void setWeight(int weight) {
+
         this.weight = weight;
     }
     public void setPressure(int pressure) {
+
         this.pressure = pressure;
     }
     public void setStepsByDay(int stepsByDay) {
+
         this.stepsByDay = stepsByDay;
     }
 
     public void printAccountInfo() {
+
         System.out.println(this);
     }
     public String toString() {

@@ -2,18 +2,26 @@ package less777;
 
 public enum DrinkMachine {
 
-    COFFEE(1.30), TEA(0.90), LEMONADE(2.0), MOJITO(2.30), MINERAL(1.5), COCA_COLA(1.2);
+    COFFEE(" Coffee"),
+    TEA(" Tea"),
+    LEMONADE(" Lemonade"),
+    MOJITO(" Mojito"),
+    MINERAL(" Water"),
+    COCA_COLA(" Coca-Cola");
 
-    private final double price;
+    private String name;
 
-    DrinkMachine(double price) {
-        this.price = price;
+    DrinkMachine(String name) {
+
+        this.name = name;
     }
 
-    public double getPrice() {
-        return price;
+    public String getName() {
+
+        return name;
     }
 }
+
 
 
 
