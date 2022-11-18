@@ -9,8 +9,8 @@ public class DrinksMain {
         Scanner sc = new Scanner(System.in);
             Drinks drinks = new Drinks();
 
-            boolean a = true;
-            while (a) {
+            boolean count = true;
+            while (count) {
                 System.out.println("Choose a drink: ");
                 System.out.println(Arrays.toString(DrinkMachine.values()));
                 String choice = sc.nextLine();
@@ -40,16 +40,16 @@ public class DrinksMain {
                         System.out.println("ERROR");
                 }
 
-                System.out.println("TOTAL PRICE : " + Drinks.sum);
+                System.out.println("TOTAL PRICE : " + Drinks.getSum() );
                 System.out.println("Would you like anything else?  Yes/No");
 
                 boolean moreDrinks = true;
                 while (moreDrinks) {
-                    String answer = sc.nextLine();
-                    if (answer.equals("Yes") || answer.equals("NO") || answer.equals("no")) {
+                    String answer = sc.nextLine().toLowerCase();
+                    if (answer.equals("no")) {
                         moreDrinks = false;
-                        a = false;
-                    } else if (answer.equals("Yes") || answer.equals("YES") || answer.equals("yes")) {
+                        count = false;
+                    } else if (answer.equals("yes")) {
                         moreDrinks = false;
                     } else {
                         System.out.println("Answer - YES/NO");
@@ -58,6 +58,7 @@ public class DrinksMain {
             }
         }
     }
+
 
 
 
