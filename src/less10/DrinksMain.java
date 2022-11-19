@@ -1,4 +1,4 @@
-package less777;
+package less10;
 import java.util.Scanner;
 import java.util.Arrays;
 

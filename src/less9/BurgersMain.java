@@ -1,4 +1,4 @@
-package Burger;
+package less9;
 
 public class BurgersMain {
 

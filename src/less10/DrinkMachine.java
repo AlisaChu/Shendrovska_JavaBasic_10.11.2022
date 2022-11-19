@@ -1,4 +1,4 @@
-package less777;
+package less10;
 
 public enum DrinkMachine {
 
@@ -7,7 +7,7 @@ public enum DrinkMachine {
     LEMONADE(" Lemonade"),
     MOJITO(" Mojito"),
     MINERAL(" Water"),
-    COCA_COLA(" Coca-Cola");
+    COCA_COLA("Coca-Cola");
 
     private String name;
 

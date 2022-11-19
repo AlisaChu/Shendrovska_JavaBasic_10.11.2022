@@ -1,4 +1,4 @@
-package Burger;
+package less9;
 
 public class Burgers {
     private String bun;

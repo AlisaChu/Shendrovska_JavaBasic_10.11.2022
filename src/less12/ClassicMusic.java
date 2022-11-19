@@ -1,4 +1,4 @@
-package less14;
+package less12;
 
 public class ClassicMusic extends MusicStyle {
 
