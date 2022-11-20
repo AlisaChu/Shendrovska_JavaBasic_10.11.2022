@@ -8,7 +8,7 @@ public class Fib {
         System.out.print("enter any number: ");
 
     int n = sn.nextInt();
-    int a = 1;
+    int a = 0;
     int b = 1;
     int fib = 2;
     int i = 2;

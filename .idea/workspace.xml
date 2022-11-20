@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c8ef308-54e6-40b9-827f-8774134230af" name="Changes" comment="homework test">
+    <list default="true" id="2c8ef308-54e6-40b9-827f-8774134230af" name="Changes" comment="interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less11/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/less11/Tracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less11/TrackerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/less11/TrackerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +15,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -47,13 +53,65 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="TrackerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="less11.TrackerMain" />
+  <component name="RunManager" selected="Application.Fib">
+    <configuration name="ChinaTown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="less4.ChinaTown" />
       <module name="demoGit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="less11.*" />
+          <option name="PATTERN" value="less4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="less13.Fib" />
+      <module name="demoGit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="less13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="less14.Main" />
+      <module name="demoGit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="less14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice1.Main" />
+      <module name="demoGit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shuttle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="less6.Shuttle" />
+      <module name="demoGit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="less6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrackerMain" />
+        <item itemvalue="Application.Fib" />
+        <item itemvalue="Application.Practice1.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Shuttle" />
+        <item itemvalue="Application.ChinaTown" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +173,91 @@
       <option name="project" value="LOCAL" />
       <updated>1668099018753</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edited ready">
+      <created>1668105174857</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668105174857</updated>
+    </task>
+    <task id="LOCAL-00007" summary="retake of Burgers file. Double burger full composition">
+      <created>1668109902920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668109902920</updated>
+    </task>
+    <task id="LOCAL-00008" summary="11 hours of hysteria and the code is ready">
+      <created>1668366453251</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668366453251</updated>
+    </task>
+    <task id="LOCAL-00009" summary="11 hours of hysteria and the code is ready&#10;removed minor bugs">
+      <created>1668368995238</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668368995238</updated>
+    </task>
+    <task id="LOCAL-00010" summary="11 hours of hysteria and the code is ready&#10;removed minor bugs">
+      <created>1668372504346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668372504346</updated>
+    </task>
+    <task id="LOCAL-00011" summary="11 hours of hysteria and the code is ready&#10;removed minor bugs 3">
+      <created>1668373046628</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668373046628</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ready">
+      <created>1668798586745</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668798586746</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ready">
+      <created>1668798598892</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668798598892</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fib">
+      <created>1668801678902</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668801678902</updated>
+    </task>
+    <task id="LOCAL-00015" summary="completely ready">
+      <created>1668809069755</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668809069755</updated>
+    </task>
+    <task id="LOCAL-00016" summary="completely ready all">
+      <created>1668865614589</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668865614589</updated>
+    </task>
+    <task id="LOCAL-00017" summary="interface">
+      <created>1668880217821</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668880217821</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +288,17 @@
     <MESSAGE value="adited main class added fields sop" />
     <MESSAGE value="correction" />
     <MESSAGE value="homework test" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework test" />
+    <MESSAGE value="edited ready" />
+    <MESSAGE value="retake of Burgers file. Double burger full composition" />
+    <MESSAGE value="11 hours of hysteria and the code is ready" />
+    <MESSAGE value="11 hours of hysteria and the code is ready&#10;removed minor bugs 2" />
+    <MESSAGE value="11 hours of hysteria and the code is ready&#10;removed minor bugs" />
+    <MESSAGE value="11 hours of hysteria and the code is ready&#10;removed minor bugs 3" />
+    <MESSAGE value="ready" />
+    <MESSAGE value="fib" />
+    <MESSAGE value="completely ready" />
+    <MESSAGE value="completely ready all" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
 </project>
