@@ -1,4 +1,4 @@
-package Practice1;
+package Practice;
 
 public enum Size {
     XXS(36) {

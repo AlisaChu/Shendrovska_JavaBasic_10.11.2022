@@ -1,19 +1,20 @@
-package Practice1;
+package Practice;
 
-public class Pants extends Clothes implements Man,Woman {
-    public Pants(Size size, String color) {
+public class Tie extends Clothes implements Man {
+    public Tie(String color, Size size) {
         super(size, color);
     }
-    public Pants(Size size, String color, double cost) {
+
+    public Tie(Size size, String color, double cost) {
         super(size, color, cost);
     }
+
     @Override
     public String toString() {
-        return "Pants{" +
+        return "Tie{" +
                 "size = " + getSize() +
                 ", coast = " + getCost() + " euro" +
                 ", color = " + getColor() +
                 "}";
     }
 }
-

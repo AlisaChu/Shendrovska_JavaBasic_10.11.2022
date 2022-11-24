@@ -1,4 +1,4 @@
-package Practice1;
+package Practice;
 
 public abstract class Clothes {
     private Size size;

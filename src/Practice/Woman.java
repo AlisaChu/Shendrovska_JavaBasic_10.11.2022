@@ -1,4 +1,4 @@
-package Practice1;
+package Practice;
 
 public interface Woman {
     default void dressWoman() {

@@ -1,4 +1,4 @@
-package Practice1;
+package Practice;
 
 public interface Man {
     default void dressMan() {
