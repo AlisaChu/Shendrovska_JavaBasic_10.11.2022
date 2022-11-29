@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c8ef308-54e6-40b9-827f-8774134230af" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="2c8ef308-54e6-40b9-827f-8774134230af" name="Changes" comment="test2">
+      <change afterPath="$PROJECT_DIR$/src/Practice2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice2/StudentInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Atele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Atele.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Clothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Clothes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/MakingStudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/MakingStudio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Pants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Pants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Skirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Skirt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Tie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Tie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Tshirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Tshirt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice1/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Woman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +56,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PrintableDemo">
-    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="less13.Fib" />
+  <component name="RunManager" selected="Application.StudentInfo">
+    <configuration name="BoxDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice2.BoxDemo1" />
       <module name="demoGit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="less13.*" />
+          <option name="PATTERN" value="Practice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="less14.Main" />
+    <configuration name="BoxDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice2.BoxDemo2" />
       <module name="demoGit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="less14.*" />
+          <option name="PATTERN" value="Practice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.Practice1.Practice2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Practice1.Practice2.Main" />
+    <configuration name="BoxDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice2.BoxDemo6" />
       <module name="demoGit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Practice1.Practice2.*" />
+          <option name="PATTERN" value="Practice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice1.PrintableDemo" />
+    <configuration name="PhoneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice2.PhoneDemo" />
       <module name="demoGit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice1.*" />
+          <option name="PATTERN" value="Practice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice1.Test" />
+    <configuration name="StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice2.StudentInfo" />
       <module name="demoGit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice1.*" />
+          <option name="PATTERN" value="Practice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrintableDemo" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Fib" />
-        <item itemvalue="Application.Practice.Practice1.Practice2.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StudentInfo" />
+        <item itemvalue="Application.PhoneDemo" />
+        <item itemvalue="Application.BoxDemo2" />
+        <item itemvalue="Application.BoxDemo6" />
+        <item itemvalue="Application.BoxDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669306473670</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test2">
+      <created>1669309641319</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669309641319</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,6 +325,7 @@
     <MESSAGE value="interface" />
     <MESSAGE value="fib2" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
 </project>
